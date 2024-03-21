@@ -6,7 +6,7 @@
 2. This library simplifies the process of creating visually appealing and interactive event cards, making it easier for developers to showcase events in their applications.
 
 # Installation
-npm install event-card-react
+npm install responsive-card  
 
 # Usage
 To use the Event Card component in your React application, import it into your component file and pass the necessary props:
