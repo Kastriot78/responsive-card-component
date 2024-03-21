@@ -1,23 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "./lib/Card";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <div className="row">
+          <Card 
+            link="#"
+            imageSrc="https://demo.ovathemewp.com/em4u/wp-content/uploads/2017/10/event_business_1-1-640x384.jpg"
+            thumbTitle="New York City"
+            monthTitle="Nov"
+            dateTitle="15 2024"
+            cardTitle="Course about business"
+            statusTitle="Upcoming"
+            textTitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mae..."
+            buttonLink="#"
+            buttonText="No Ticket"
+          />
+          <Card 
+            link="#"
+            imageSrc="https://demo.ovathemewp.com/em4u/wp-content/uploads/2017/10/event_business_1-1-640x384.jpg"
+            thumbTitle="New York City"
+            monthTitle="Nov"
+            dateTitle="15 2024"
+            cardTitle="Course about business"
+            statusTitle="Upcoming"
+            textTitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mae..."
+            buttonLink="#"
+            buttonText="No Ticket"
+          />
+          <Card 
+            link="#"
+            imageSrc="https://demo.ovathemewp.com/em4u/wp-content/uploads/2017/10/event_business_1-1-640x384.jpg"
+            thumbTitle="New York City"
+            monthTitle="Nov"
+            dateTitle="15 2024"
+            cardTitle="Course about business"
+            statusTitle="Upcoming"
+            textTitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mae..."
+            buttonLink="#"
+            buttonText="No Ticket"
+          />
+        </div>
+      </div>
     </div>
   );
 }
