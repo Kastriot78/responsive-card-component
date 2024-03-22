@@ -11,12 +11,14 @@ npm install responsive-card
 # Usage
 To use the Event Card component in your React application, import it into your component file and pass the necessary props:
 
+```jsx
 import Card from 'responsive-card';
+
 <div className="row">
   <Card
     link="#"
     imageSrc="imageURL"
-    thumbTitle="Chickago City"
+    thumbTitle="New York City"
     monthTitle="Nov"
     dateTitle="15 2024"
     cardTitle="Course about business"
@@ -26,6 +28,7 @@ import Card from 'responsive-card';
     buttonText="Save"
   />
 </div>
+```
 
 # Props
 1. link (string): The URL link for the card.
