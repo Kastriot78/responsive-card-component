@@ -1,6 +1,6 @@
 # Event Card React Component Library
 
-![Alt text](https://github.com/Kastriot78/responsive-card-component/blob/main/Screenshot_2.jpg)
+![Alt text](https://github.com/Kastriot78/responsive-card-component/blob/main/Screenshot_3.jpg)
 
 1. The Event Card React Component Library provides a reusable and customizable card component specifically designed for displaying event information in React applications. 
 2. This library simplifies the process of creating visually appealing and interactive event cards, making it easier for developers to showcase events in their applications.
